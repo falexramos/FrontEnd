@@ -1,6 +1,6 @@
 body {
   font-family:Helvetica,Futura,Arial,Verdana,sans-serif !important;
-  font-size: 8px !important;
+  font-size: 12px !important;
 }
 
 :after, :before {
@@ -51,39 +51,6 @@ i{
     
 }
 
-.btn-app:hover {
-    border-color: #aaa;
-    transform: scale(1.1);
-}
-
-.pdf {
-  color: #dc2f2f !important;
-  background-color: #fff !important;
-}
-
-.excel {
- color: #3ca23c !important;
-    background-color: #fff !important;
-}
-
-.csv {
- color: #e86c3a !important;
-    background-color: #fff !important;
-}
-
-.imprimir {
-    color: #333E55 !important;
-    background-color: #fff !important;
-
-}
-/*
-Esto es opcional pero sirve para que todos los botones de exportacion se distribuyan de manera equitativa usando flexbox
-
-.flexcontent {
-    display: flex;
-    justify-content: space-around;
-}
-*/
 
 .selectTable{
   height:40px;
@@ -140,6 +107,9 @@ table.dataTable.stripe tbody tr.odd,table.dataTable.display tbody tr.odd{
 }
 table.dataTable.hover tbody tr:hover,table.dataTable.display tbody tr:hover{
     background-color:#D6D8DF
+}
+table.dataTable tbody tr,table.dataTable.display tbody tr{
+  background-color:#D6D8DF
 }
 
 table.dataTable.order-column tbody tr>.sorting_1,table.dataTable.order-column tbody tr>.sorting_2,table.dataTable.order-column tbody tr>.sorting_3,table.dataTable.display tbody tr>.sorting_1,table.dataTable.display tbody tr>.sorting_2,table.dataTable.display tbody tr>.sorting_3{
@@ -211,7 +181,7 @@ table.dataTable.display tbody tr.odd>.sorting_1,table.dataTable.order-column.str
         box-shadow: none; }
       .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
         color: white !important;
-        border: 1px solid #B9B9D8;
+        border: 1px solid rgb(25, 25, 163);
         background-color: #D0D4DC;
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D0D4DC), color-stop(100%, #333E55));
         /* Chrome,Safari4+ */
