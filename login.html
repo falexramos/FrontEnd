@@ -17,6 +17,9 @@
     <link href="css/styleDataTables.css" rel="stylesheet">
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/data.js"></script>
+    <!--Servicios-->
+    <script src="js/Servicios.js"></script>
+
 
 </head>
 
@@ -39,11 +42,10 @@
 
 
                         <div class="form-check">
-                            <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                                <small>Remember Me</small>
-                            </label>
-                            <button type="submit" class="btn btn-login float-right">Submit</button>
+
+                            <input type="text" placeholder="Usuario" id="id-user">
+                            <input type="password" placeholder="Password" id="id-pass">
+                            <button type="submit" id="boton">Ingresar</button>
                         </div>
 
                     </form>
@@ -99,10 +101,10 @@
                             <table id="topTen" class="banner-table display" style="width:100%">
                                 <thead>
                                     <tr>
+                                        <th>score</th>
                                         <th>identification</th>
                                         <th>name</th>
                                         <th>latName</th>
-                                        <th>score</th>
                                     </tr>
                             </table>
                         </div>

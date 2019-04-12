@@ -6,11 +6,11 @@ $(document).ready(function() {
         },
         "dom": '',
         "columns": [
+            { "data": "score" },
             { "data": "identification" },
             { "data": "name" },
-            { "data": "lastName" },
-            { "data": "score" }
-            
-        ]
+            { "data": "lastName" }            
+        ],
+        "order": [[ 0, "desc" ]]
     } );
 } );
